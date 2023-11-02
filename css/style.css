@@ -68,12 +68,18 @@ html{
     clear: both;
     padding-top: 81px;
     background-color: aqua;
+    box-shadow: -6px -6px 10px ;
  }
  .full-content{
     margin: 0 auto;
     padding: 0 30px;
     max-width: 1200px;
  }
+
+.grid .col-cont{
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 5px 5px 5px;
+}
 
  @media all and (max-width:568px){
     .grid .col {
